@@ -1,0 +1,88 @@
+body {
+    /* --colorfacbook:rgb(19, 8, 168);
+    --colorInsta:#f09433;
+    --colorwhatsapp:rgb(8, 168, 69);
+    --coloryoutube:rgb(168, 13, 8);
+    --colortwitter: #1DA1F2;
+    --colorsnapchat: #c4f21d;
+    --coloortiktok: #12130f;
+    --coloortelegram: #2876b6; */
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    }
+    .icon-container {
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+  
+
+.box{
+    position: relative;
+    
+}
+
+i{ color: #ffffff;
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    left: 20%;
+    top: 15%;
+    transform: rotateZ(130deg);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.big-heart{ z-index: -1;
+    position: absolute;
+    transform: rotateZ(230deg);
+    width: 100px;
+    --c: rgb(37 38 59);    
+    aspect-ratio: 1;
+    background:
+     radial-gradient(at 70% 31%,var(--c) 29%,#0000 30%),
+     radial-gradient(at 32% 51%,var(--c) 24%,rgba(7, 1, 1, 0) 20%), 
+             radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%),
+     radial-gradient(at 66% 51%,var(--c) 24%,rgba(7, 1, 1, 0) 20%),
+               radial-gradient(at 48% 52%,var(--c) 49%,#0000 30%);      
+            }
+.heart {
+        z-index: 1000;
+        position: absolute;
+        transform: rotateZ(1deg);
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        --c: rgb(4, 0, 255);
+        
+        aspect-ratio: 1;
+        background:
+         radial-gradient(at 70% 31%,var(--c) 29%,#0000 30%),
+         radial-gradient(at 32% 51%,var(--c) 24%,rgba(7, 1, 1, 0) 20%), 
+                 radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%),
+         radial-gradient(at 66% 51%,var(--c) 24%,rgba(7, 1, 1, 0) 20%),
+                   radial-gradient(at 48% 52%,var(--c) 49%,#0000 30%);      
+                }
+                span{
+                    
+                    position: absolute;
+                    left: -30%;
+                    top: 128px;
+
+                }
